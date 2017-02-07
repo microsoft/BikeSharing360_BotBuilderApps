@@ -29,15 +29,15 @@ BikeSharing360BotBuilder App is another implementation of the [BikeSharing360Bot
 You need an Azure subscription to deploy the bot service. [Try it for free](https://azure.microsoft.com/en-us/). This app works with the [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/). You can find documentation for Azure Bot Service [here](https://docs.botframework.com/en-us/azure-bot-service/#navtitle).
 
 ## Setup the bot service
-* 1. Deploy CustomerServiceApis into Azure (You need a bing map service subscription to make "GetMapWithRoute" api work).
-* 2. Deploy BikeSharing360BotBuilderApp into Azure.
-* 3. Go to https://www.luis.ai and log in with your live account. 
-* 4. Click "New App"->"Import Existing Application" and choose luis\BikeSharing360Luis.json. BikeSharing360Luis will be created.
-* 5. Enter the "BikeSharing360Luis" app. Click "train" button on the left bottom. Then click "publish" on the left. Save the app-id and subscription-key information from the URL.
-* 6. Go to BikeSharing360_BotBuilderApp\Controllers\BikeSharing360LuisDialog.cs, replace "_YourModelId_", "_YourSubscriptionKey_" with the keys you got in step 4.
-* 7. Go to BikeSharing360_BotBuilderApp\Controllers\Backend\Consts.cs, update "_YourBackendServiceBaseUrl_".
-* 8. Submit the code.
-* 9. Now, you can publish the bot ([How](https://docs.botframework.com/en-us/azure-bot-service/manage/publish/#navtitle)) and test it. 
+1. Deploy CustomerServiceApis into Azure (You need a bing map service subscription to make "GetMapWithRoute" api work).
+2. Deploy BikeSharing360BotBuilderApp into Azure.
+3. Go to https://www.luis.ai and log in with your live account. 
+4. Click "New App"->"Import Existing Application" and choose luis\BikeSharing360Luis.json. BikeSharing360Luis will be created.
+5. Enter the "BikeSharing360Luis" app. Click "train" button on the left bottom. Then click "publish" on the left. Save the app-id and subscription-key information from the URL.
+6. Go to BikeSharing360_BotBuilderApp\Controllers\BikeSharing360LuisDialog.cs, replace "_YourModelId_", "_YourSubscriptionKey_" with the keys you got in step 4.
+7. Go to BikeSharing360_BotBuilderApp\Controllers\Backend\Consts.cs, update "_YourBackendServiceBaseUrl_".
+8. Submit the code.
+9. Now, you can publish the bot ([How](https://docs.botframework.com/en-us/azure-bot-service/manage/publish/#navtitle)) and test it. 
 
 ## How to sign up for Microsoft Azure
 
