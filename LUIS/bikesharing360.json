@@ -1,0 +1,226 @@
+{
+  "luis_schema_version": "1.3.1",
+  "versionId": "0.1",
+  "name": "bikesharing360",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "confirmlocation"
+    },
+    {
+      "name": "confirmontheway"
+    },
+    {
+      "name": "contactCustomerService"
+    },
+    {
+      "name": "extendRental"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "registeremployee"
+    },
+    {
+      "name": "rentBike"
+    },
+    {
+      "name": "reportloss"
+    },
+    {
+      "name": "returnBike"
+    },
+    {
+      "name": "startconversation"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "datetime",
+    "geography"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "i lost my bike, what do i do?",
+      "intent": "reportloss",
+      "entities": []
+    },
+    {
+      "text": "it was stolen from me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i’m at a nearby coffee shop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i’m at a coffee shop across the street",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'm right where the bike was stolen",
+      "intent": "confirmlocation",
+      "entities": []
+    },
+    {
+      "text": "i would like to rent a bike",
+      "intent": "rentBike",
+      "entities": []
+    },
+    {
+      "text": "start a new conversation",
+      "intent": "startconversation",
+      "entities": []
+    },
+    {
+      "text": "my bike was stolen, what do i do?",
+      "intent": "reportloss",
+      "entities": []
+    },
+    {
+      "text": "on my way",
+      "intent": "confirmontheway",
+      "entities": []
+    },
+    {
+      "text": "register me as an employee",
+      "intent": "registeremployee",
+      "entities": []
+    },
+    {
+      "text": "i want to return my bike",
+      "intent": "returnBike",
+      "entities": []
+    },
+    {
+      "text": "i would like to extend my rental.",
+      "intent": "extendRental",
+      "entities": []
+    },
+    {
+      "text": "i want to contact customer service.",
+      "intent": "contactCustomerService",
+      "entities": []
+    },
+    {
+      "text": "where i was when it got stolen",
+      "intent": "confirmlocation",
+      "entities": []
+    },
+    {
+      "text": "i'm where the bike was stolen",
+      "intent": "confirmlocation",
+      "entities": []
+    },
+    {
+      "text": "it happened one hour ago",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "about 5 minutes ago",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i lost my bike",
+      "intent": "reportloss",
+      "entities": []
+    },
+    {
+      "text": "hi, i lost my bike",
+      "intent": "reportloss",
+      "entities": []
+    },
+    {
+      "text": "lost bike",
+      "intent": "reportloss",
+      "entities": []
+    },
+    {
+      "text": "i am still at spring studios",
+      "intent": "confirmlocation",
+      "entities": []
+    },
+    {
+      "text": "i am on my way",
+      "intent": "confirmontheway",
+      "entities": []
+    },
+    {
+      "text": "i am on the way",
+      "intent": "confirmontheway",
+      "entities": []
+    },
+    {
+      "text": "i’m available",
+      "intent": "registeremployee",
+      "entities": []
+    },
+    {
+      "text": "i am available",
+      "intent": "registeremployee",
+      "entities": []
+    },
+    {
+      "text": "i would like to",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'd like to",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i would love to",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "spring studios",
+      "intent": "confirmlocation",
+      "entities": []
+    },
+    {
+      "text": "rental",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "startconversation",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "startconversation",
+      "entities": []
+    },
+    {
+      "text": "spring studio",
+      "intent": "confirmlocation",
+      "entities": []
+    }
+  ]
+}
